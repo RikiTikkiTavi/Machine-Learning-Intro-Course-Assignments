@@ -1,1 +1,1 @@
-# Yandex-ML-Intro-Assignments
+Programming Assignments of the course "Introduction to Machine Learning"
