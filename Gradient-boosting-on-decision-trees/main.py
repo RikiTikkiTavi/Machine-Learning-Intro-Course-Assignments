@@ -93,6 +93,7 @@ answer(['overfitting'], '1')
 
 # 3
 min_iter_dict = estimate_iterations([1, 0.5, 0.3, 0.2, 0.1], X_train, X_test, y_train, y_test)
+print(min_iter_dict)
 min_iter = estimate_min_iterations(min_iter_dict)
 
 clf = RandomForestClassifier(random_state=241, n_estimators=min_iter)
